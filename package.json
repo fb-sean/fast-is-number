@@ -1,8 +1,8 @@
 {
     "name": "fast-is-number",
-    "version": "1.0.1",
-    "main": "dist/index.js",
-    "typings": "typings/index.d.ts",
+    "version": "1.0.2",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc --declaration --outDir dist --lib dom,es6"
     },
@@ -10,6 +10,14 @@
     "contributors": [
         "fb-sean <sean@sattler.dev>"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fb-sean/fast-is-number.git"
+    },
+    "bugs": {
+        "url": "https://github.com/fb-sean/fast-is-number/issues"
+    },
+    "homepage": "https://github.com/fb-sean/fast-is-number",
     "license": "MIT",
     "keywords": [
         "typescript-utility",
@@ -25,9 +33,6 @@
         "float",
         "nan",
         "faster"
-    ],
-    "files": [
-        "dist"
     ],
     "dependencies": {
         "@types/node": "^20.2.5"
